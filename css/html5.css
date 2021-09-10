@@ -1,0 +1,50 @@
+/* 
+para dar formato a etiquetas se pone la etiqueta sin . o # ej: p; h1
+para dar formato por id se usa el #
+para dar formato por clases se usa el .
+*/
+
+
+p {
+    color: blue;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(140, 16, 16);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#xy {
+    color: blueviolet;
+}
+
+body {
+    background-color: rgba(240, 240, 240, 0.831);
+    background-image: url("../back.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+    
+}
+
+.v {
+    color: brown;
+}
+
+a {
+    color: rgb(0, 255, 72);
+}
+
+p.upb {
+    color: blueviolet;
+}
+
+p[name$="b"] {
+    color: rgb(204, 134, 145);
+}
+
+p:hover {
+    color:rgb(0, 255, 72);
+}
